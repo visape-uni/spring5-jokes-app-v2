@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 @Controller
 public class JokeController {
 
-    private JokeService jokeService;
+    private final JokeService jokeService;
 
     public JokeController(JokeService jokeService) {
         this.jokeService = jokeService;
