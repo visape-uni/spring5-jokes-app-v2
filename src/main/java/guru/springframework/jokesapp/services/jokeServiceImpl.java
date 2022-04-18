@@ -16,4 +16,5 @@ public class jokeServiceImpl implements JokeService {
     public String getJoke() {
         return chuckNorrisQuotes.getRandomQuote();
     }
+
 }
